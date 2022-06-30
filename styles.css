@@ -120,3 +120,81 @@ hr {
     padding: 3px;
     margin-left: 15px;
 }
+
+/* product details section button styling */
+.og-price {
+    font-size: 20px;
+    opacity: 40%;
+}
+
+.user-interact-buttons {
+    display: flex;
+    align-items : center;
+      justify-content : center;
+    /*   border : 1px solid black; */
+    margin-top: 70px;
+}
+
+.userInputArea {
+    align-self : center;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: #F7F8FD;
+}
+
+.decrementButton {
+    padding: 0 20px;
+    font-size: 2rem;
+    border: none;
+    color: #fd8f2b;
+    background-color: #F7F8FD;
+}
+
+.incrementButton {
+    border: 1px solid black;
+    color: #fd8f2b;
+    font-size: 2rem;
+    padding: 0 20px;
+    border: none;
+    background-color: #F7F8FD;
+}
+
+.addToCartBtn {
+    background-color: #fd8f2b;
+    border: 1px solid #fd8f2b;
+    border-radius: 12px;
+    color: white;
+    margin-left: 50px;
+    height: 50px;
+    width: 250px;
+
+
+}
+
+.addToCartBtn i {
+    margin-right: 9px;
+}
+
+.userInputHandler {
+    display: flex;
+    background-color: #F7F8FD;
+    border-radius: 5%;
+
+}
+
+/* main tag styling */
+.product-info {
+    padding-top: 80px;
+}
+
+.product-showcase {
+    /*   border : 1px solid black; */
+    padding: 0px 0px 40px 40px;
+}
+
+
+.product-details {
+    margin: 80px 100px;
+    /*   margin-top : 80px; */
+}
