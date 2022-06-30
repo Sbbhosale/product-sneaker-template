@@ -53,3 +53,8 @@ nav img {
     border-radius : 50%;
     margin-left : 30px;
 }
+
+/* hr styled */
+hr {
+    opacity : 40%;
+}
