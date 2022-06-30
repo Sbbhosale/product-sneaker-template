@@ -58,3 +58,24 @@ nav img {
 hr {
     opacity : 40%;
 }
+
+/* display image section styling */
+
+.current-display-img {
+    height : 500px;
+    width : 500px;
+    border-radius : 5%;
+}
+
+.sub-img {
+    height : 100px;
+    width : 100px;
+    border-radius : 15%;
+}
+
+.sub-img-wrapper{
+    padding: 26px 0;
+    width : 500px;
+    display : flex;
+    justify-content : space-between;
+}

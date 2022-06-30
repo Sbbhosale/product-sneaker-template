@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,82 @@
     <title>Sneaker Template</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-    <nav class = "product-page-nav flex-align">
-        <div class= "flex-align">
-        <h1>sneakers</h1>
-        <ul class = "nav-components-list">
-            <li><a href = "/">Collections</a></li>
-            <li><a href = "/">Men</a></li>
-            <li><a href = "/">Women</a></li>
-            <li><a href = "/">About</a></li>
-            <li><a href = "/">Contact</a></li>
-        </ul>
+    <nav class="product-page-nav flex-align">
+        <div class="flex-align">
+            <h1>sneakers</h1>
+            <ul class="nav-components-list">
+                <li><a href="/">Collections</a></li>
+                <li><a href="/">Men</a></li>
+                <li><a href="/">Women</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
         </div>
-        <div class= "flex-align">
-        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
-        <div class="user-profile">
-        <img src="/images/user-profile-img.jpg"/>
+        <div class="flex-align">
+            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            <div class="user-profile">
+                <img src="/images/user-profile-img.jpg" />
+            </div>
         </div>
-        </div>         
     </nav>
 
-    <hr/>
-    
+    <hr />
+
+    <main class="product-info">
+        <section class="product-showcase">
+            <img class="current-display-img"
+                src="/images/image-product-1.jpg"
+                alt="shoes" />
+            <div class="sub-img-wrapper">
+                <img class="sub-img"
+                    src="/images/image-product-1.jpg"
+                    alt="shoes" />
+                <img class="sub-img"
+                    src="/images/image-product-2.jpg"
+                    alt="shoes" />
+                <img class="sub-img"
+                    src="/images/image-product-3.jpg"
+                    alt="shoes" />
+                <img class="sub-img"
+                    src="/images/image-product-4.jpg"
+                    alt="shoes" />
+            </div>
+        </section>
+
+        <section class="product-details">
+            <h5>SNEAKER COMPANY</p>
+                <h2>Fall Limited Edition Sneakers</h2>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer
+                    sole, they'll withstand everything the weather can offer.</p>
+                <div class="product-details-price flex-align">
+                    <div class="price">
+                        $125.00
+                    </div>
+                    <div class="discount">50%</div>
+
+                </div>
+                <div class="og-price"><s>$250.00</s></div>
+
+                <div class="user-interact-buttons">
+
+                    <div class="userInputHandler">
+                        <button class="decrementButton">-</button>
+                        <input class="userInputArea" />
+                        <button class="incrementButton">+</button>
+                    </div>
+
+                    <button class="addToCartBtn"><span><i class="fa fa-shopping-cart fa-lg"
+                                aria-hidden="true"></i></span>Add To Cart</button>
+                </div>
+
+
+        </section>
+    </main>
+
     <script src="https://use.fontawesome.com/cabdbe66f9.js"></script>
 </body>
+
 </html>
