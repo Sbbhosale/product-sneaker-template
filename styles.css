@@ -89,7 +89,7 @@ hr {
 
 .product-details h5 {
     color: #fd8f2b;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.9rem;
     letter-spacing: 2px;
     word-spacing: 2px;
 }
@@ -129,17 +129,14 @@ hr {
 
 .user-interact-buttons {
     display: flex;
-    align-items : center;
-      justify-content : center;
-    /*   border : 1px solid black; */
     margin-top: 70px;
 }
 
 .userInputArea {
-    align-self : center;
     padding: 10px;
+    text-align: center;
     width: 50px;
-    border: 1px solid black;
+    border: none;
     background-color: #F7F8FD;
 }
 
@@ -178,6 +175,7 @@ hr {
 
 .userInputHandler {
     display: flex;
+    align-items : center;
     background-color: #F7F8FD;
     border-radius: 5%;
 
@@ -189,12 +187,10 @@ hr {
 }
 
 .product-showcase {
-    /*   border : 1px solid black; */
     padding: 0px 0px 40px 40px;
 }
 
 
 .product-details {
     margin: 80px 100px;
-    /*   margin-top : 80px; */
 }
