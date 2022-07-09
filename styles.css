@@ -24,7 +24,6 @@ nav h1 {
 nav ul {
     list-style: none;
     margin-left: 20px;
-    opacity: 50%;
 }
 
 ul li {
@@ -35,7 +34,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #7b7373;
 }
 
 i {
@@ -103,7 +102,7 @@ hr {
 
 .product-details p {
     font-weight: bold;
-    opacity: 30%;
+    color : #7c7474;
     margin-bottom: 30px;
 }
 
@@ -115,7 +114,7 @@ hr {
 .product-details-price .discount {
     font-size: 18px;
     font-weight: bold;
-    color: hwb(27deg 42% 6%);
+    color: #ea7718;
     background-color: hwb(24deg 88% 0%);
     padding: 3px;
     margin-left: 15px;
@@ -124,7 +123,7 @@ hr {
 /* product details section button styling */
 .og-price {
     font-size: 20px;
-    opacity: 40%;
+    color: darkgray;
 }
 
 .user-interact-buttons {
